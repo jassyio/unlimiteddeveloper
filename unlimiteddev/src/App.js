@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+// App.js
+import React, { useContext } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Header from './header';
+import About from './about';
+import Skills from './skills';
+import Projects from './projects';
+import Certificates from './certificates';
+import Footer from './footer';
+import Chat from './chat';
+import Home from './home';
+import Contact from './contact';
+import { Theme } from './theme'; // Correct import
 
 function App() {
+  const { theme } = useContext(Theme);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`App ${theme}`} data-theme={theme}>
+      <Router>
+        <Header />
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/certificates" element={<Certificates />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/theme" element={<Theme />} />
+          </Routes>
+          <Chat />
+        </div>
+        <Footer />
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,65 @@
+/* General Section Styles */
+.skills {
+  margin: 20px;
+  padding: 20px;
+  padding-bottom: 10px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Light Mode Styles */
+.skills.light {
+  background-color: #f3f3f3;
+  color: #282c34;
+}
+
+/* Dark Mode Styles */
+.skills.dark {
+  background-color: #222;
+  color: #ddd;
+}
+
+/* Classic Mode Styles */
+.skills.classic {
+  background-color: #c47414;
+  color: #ffffff;
+  font-family: 'Times New Roman', serif;
+}
+
+/* Color Mode Styles */
+.skills.color {
+  background-color: rgba(108, 192, 30, 0.74);
+  color: #fff;
+}
+
+/* Heading Styles */
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Skills List Styles */
+.skills-list {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.skills-list ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.skills-list li {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+/* Paragraph Styles */
+.skills p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}

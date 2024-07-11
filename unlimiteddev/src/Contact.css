@@ -1,0 +1,146 @@
+/* Default Light Mode */
+.contact {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 10px auto;
+  min-height: 100vh;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.contact.dark {
+  background-color: #222;
+}
+
+.contact.classic {
+  background-color: #c47414;
+  font-family: 'Times New Roman', serif;
+}
+
+.contact.color {
+  background-color: #8af532;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact.light h2, .contact.classic h2 {
+  color: #282c34;
+}
+
+.contact.dark h2 {
+  color: #ddd;
+}
+
+.contact.color h2 {
+  color: #fff;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.contact.light p, .contact.classic p {
+  color: #333;
+}
+
+.contact.dark p {
+  color: #bbb;
+}
+
+.contact.color p {
+  color: #fff;
+}
+
+.contact-form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#email {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.services-list, .checkbox-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-label {
+  margin-bottom: 10px;
+}
+
+.service-checkbox {
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon i {
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+
+.social-icon span {
+  font-size: 1rem;
+}

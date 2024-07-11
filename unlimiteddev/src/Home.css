@@ -1,0 +1,114 @@
+.home {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 10px auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+/* Backgrounds */
+.home.light {
+  background-color: #f3f3f3;
+  color: #282c34;
+}
+
+.home.dark {
+  background-color: #222;
+  color: #ddd;
+}
+
+.home.classic {
+  background-color: #c47414;
+  color: #282c34; /* Update as per classic theme preferences */
+}
+
+.home.color {
+  background-color: #8af532;
+  color: #fff;
+}
+
+/* Welcome Section */
+.welcome {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.welcome h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.welcome .tagline {
+  font-size: 1.8rem;
+  color: #070707; /* Adjust tagline color */
+}
+
+/* Mission Section */
+.mission {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.mission h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.mission p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Vision Section */
+.vision {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.vision h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.vision p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Hire Me Section */
+.hire-me {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.hire-me h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hire-me p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.hire-me a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+.hire-me a:hover {
+  text-decoration: underline;
+}

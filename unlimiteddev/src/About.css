@@ -1,0 +1,70 @@
+/* Default Light Mode */
+.about {
+  padding: 40px;
+  
+  margin: 20px;
+  
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.about.light {
+  background-color: #f5f5f5;
+}
+
+.about.dark {
+  background-color: #333;
+  color: #eee;
+}
+
+.about.classic {
+  background-color: #c47414;
+  font-family: 'Times New Roman', serif;
+}
+
+.about.color {
+  background-color: #8af532;
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.about.light .about-content h2, .about.classic .about-content h2 {
+  color: #333;
+}
+
+.about.dark .about-content h2 {
+  color: #eee;
+}
+
+.about.color .about-content h2 {
+  color: #fff;
+}
+
+.about.light .about-content p, .about.classic .about-content p {
+  color: #555;
+}
+
+.about.dark .about-content p {
+  color: #ccc;
+}
+
+.about.color .about-content p {
+  color: #fff;
+}
